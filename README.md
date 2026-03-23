@@ -3,6 +3,10 @@
 Materials for a 1-hour mini-workshop on Empirical Bayes Normal Means (EBNM),
 Empirical Bayes Matrix Factorization (EBMF), and multi-block extensions.
 
+Delivered Tue 24 March at Melbourne Integrative Genomics, University of Melbourne.
+
+Let me know if you have any suggestions for improving the materials, or that you'd want to use the materials for some other purposes (e.g. a different dataset): [Jiadong Mao's email](jiadong.mao@unimelb.edu.au).
+
 ## Workshop materials
 
 | Material | Format | Description |
