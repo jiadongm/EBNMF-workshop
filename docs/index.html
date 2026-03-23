@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EBNMF Workshop Materials</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 60px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #333;
+    }
+    h1 { font-size: 1.8em; margin-bottom: 0.3em; }
+    .subtitle { color: #666; font-size: 1.1em; margin-bottom: 2em; }
+    .card {
+      border: 1px solid #e1e4e8;
+      border-radius: 8px;
+      padding: 20px 24px;
+      margin-bottom: 16px;
+      text-decoration: none;
+      display: block;
+      color: inherit;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .card:hover {
+      border-color: #0366d6;
+      box-shadow: 0 2px 8px rgba(3,102,214,0.15);
+    }
+    .card h2 { margin: 0 0 6px 0; font-size: 1.2em; color: #0366d6; }
+    .card p { margin: 0; color: #586069; font-size: 0.95em; }
+    .tag {
+      display: inline-block;
+      background: #f1f8ff;
+      color: #0366d6;
+      font-size: 0.8em;
+      padding: 2px 8px;
+      border-radius: 12px;
+      margin-right: 6px;
+    }
+    footer { margin-top: 3em; color: #999; font-size: 0.85em; }
+  </style>
+</head>
+<body>
+  <h1>Empirical Bayes Matrix Factorization Workshop</h1>
+  <p class="subtitle">From EBNM to EBMF, Topic Models, GBCD, and DIVAS</p>
+
+  <a class="card" href="slides_workshop.html">
+    <h2>Workshop Slides</h2>
+    <p>1-hour presentation covering EB shrinkage, flashier NMF, GBCD, and DIVAS with a COVID-19 proteomics case study.</p>
+    <div style="margin-top: 8px;">
+      <span class="tag">slides</span>
+      <span class="tag">xaringan</span>
+    </div>
+  </a>
+
+  <a class="card" href="EBNMF.html">
+    <h2>EBNMF Handout</h2>
+    <p>Self-contained technical reference: the EBNM problem, prior families, the ebnm package, EBMF and flashier, GBCD, and practical guidance.</p>
+    <div style="margin-top: 8px;">
+      <span class="tag">handout</span>
+      <span class="tag">reference</span>
+    </div>
+  </a>
+
+  <a class="card" href="DIVAS.html">
+    <h2>DIVAS: Multi-block Decomposition</h2>
+    <p>Data Integration Via Analysis of Subspaces &mdash; theory, the R package API, and application to longitudinal COVID-19 proteomics.</p>
+    <div style="margin-top: 8px;">
+      <span class="tag">handout</span>
+      <span class="tag">multi-omics</span>
+    </div>
+  </a>
+
+  <footer>
+    <p>Source code and R scripts available in the <a href="https://github.com/jiadongm/EBNMF-workshop">GitHub repository</a>.</p>
+  </footer>
+</body>
+</html>

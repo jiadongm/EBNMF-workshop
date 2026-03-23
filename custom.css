@@ -1,0 +1,10 @@
+/* Override metropolis Google Fonts with system sans-serif stack */
+body, .remark-slide-content, .remark-slide-content h1,
+.remark-slide-content h2, .remark-slide-content h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+               "Helvetica Neue", Arial, sans-serif !important;
+}
+code, .remark-code, .remark-inline-code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo,
+               monospace !important;
+}
